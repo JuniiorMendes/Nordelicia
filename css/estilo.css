@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blue;
+  color: white;
+  height: 130px;
+}
+
+header h1 {
+  margin-left: 20px;
+}
+
+.lista {
+  display: flex;
+  font-size: 1.6em;
+  margin-right: 20px;
+}
+
+.lista a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.lista a:hover {
+  background-color: white;
+  color: black;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  font-size: 4.5em;
+  color: white;
+  background-image: url(/img/acarajé.jpg);
+  height: 70vh;
+}
