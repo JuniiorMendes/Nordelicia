@@ -15,13 +15,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: blue;
+  background-color: rgba(212, 147, 7, 0.829);
   color: white;
   height: 130px;
 }
 
 header h1 {
   margin-left: 20px;
+  font-size: 3em;
 }
 
 .lista {
@@ -43,19 +44,62 @@ header h1 {
 }
 
 .banner {
-  top: 130px;
-  position: absolute;
+  top: -80px;
+  position: relative;
   text-align: center;
   font-size: 4em;
   color: white;
   background-image: url(/img/acarajé.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 80vh;
+  height: 81vh;
 }
 
 .banner h2 {
+  position: relative;
+  top: 200px;
+}
+
+.imgs img{
+  max-width: 470px;
+  max-height: 300px;
+  margin-left: 10px;
+}
+
+.meio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main p {
+  margin: -50px 20px 30px 50px;
+  font-size: 2em;
+  text-align: justify;
+}
+
+footer{
+  font-size: 2em;
+  background-color: lawngreen;
+  height: 150px;
+}
+
+footer ul{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+footer a img{
+  position: relative;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
+  top: 25px;
+  height: 50px;
+}
+
+footer p {
+  text-align: center;
+  margin-left: 50px;
 }
