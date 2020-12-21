@@ -1,6 +1,9 @@
+@import url ('https://fonts.googleapis.com/css2? família=Roboto+Mono:ital,wght@1.700edisplay=swap');
+
 body {
   padding: 0;
   margin: 0;
+  background-color: cornsilk;
 }
 
 html {
@@ -22,7 +25,9 @@ header {
 
 header h1 {
   margin-left: 20px;
-  font-size: 3em;
+  font-size: 3.5em;
+  font-family: fantasy;
+  letter-spacing: 10px;
 }
 
 .lista {
@@ -48,9 +53,9 @@ header h1 {
   position: relative;
   text-align: center;
   font-size: 4em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   background-image: url(/img/acarajé.jpg);
-  background-repeat: no-repeat;
   background-size: 100%;
   height: 81vh;
 }
@@ -58,6 +63,7 @@ header h1 {
 .banner h2 {
   position: relative;
   top: 200px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .imgs img{
@@ -102,4 +108,10 @@ footer a img{
 footer p {
   text-align: center;
   margin-left: 50px;
+}
+
+main p {
+  font-family: monospace;
+  letter-spacing: 2px;
+  padding: 25px;
 }
